@@ -398,7 +398,7 @@ const foodItem= [
     price: 34,
     img: 'images/south indian/sambhar-vada.jpg',
     quantity: 1
-},
+}
 ]
 
 export {foodItem};
