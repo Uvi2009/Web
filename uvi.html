@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>  
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hey Epudra!</title>
+
+    <link rel="icon" href="./images/foodielogo.png">
+    <!-- css file-->
+    <link rel="stylesheet" href="./uvi.css">
+
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./uvi.js" defer></script>
+</head>
+<body>
+    <!-- Desktop View-->
+    <div id="container" class="container">
+        <!--navigation bar & logo-->
+        <div id="menu">
+            <div class="brand-logo">
+                <img src="shoppingsite-main/images/hey eppudra.png" alt="">
+                
+            </div>
+            <div class="menu-item">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Your Orders</a>
+                <a href="#">Wishlist</a>
+                <a href="#">Address</a>
+                <a href="#">Help</a>
+            </div>
+        </div>
+
+        <!--food items-->
+        <div id="food-container" >
+             <div id="header">
+                <div class="add-box">
+                    <div class="i fa fa-map-marker  address" id="address">
+                        Your Address
+                    </div>
+                    <div class="util">
+                        <i class="fa fa-search">
+                             Search
+                        </i>
+                        <i class="fa fa-tags">
+                            Offers
+                        </i>
+                        <i class="fa fa-cart-plus" id="cart-plus">  0 items</i>
+                    </div>
+                </div>
+             </div>
+
+            <div id="food-items">
+                <div id="biriyani">
+                    <p id="category-name">Biriyani</p>
+
+                    
+                </div>
+
+
+                <div id="chicken">
+                    <p id="category-name">Chicken</p>
+                    
+                </div>
+
+                <div id="paneer">
+                    <p id="category-name">Paneer</p>
+                   
+                </div>
+
+                <div id="vegetable">
+                    <p id="category-name">Vegetable</p>
+                    
+                </div>
+
+                <div id="chinese">
+                    <p id="category-name">Chinese</p>
+                    
+                </div>
+
+                <div id="south-indian">
+                    <p id="category-name">South Indian</p>
+                    
+                </div>
+            </div>
+
+            <!--Cart page-->
+            <div id="cart-page" class="cart-toggle">
+                <p id="cart-title">Cart Items</p>
+                <p id="m-total-amount">Total Amount : $ 100</p>
+                <table>
+                    <thead>
+                        <td>Item</td>
+                        <td>Name</td>
+                        <td>Quantity</td>
+                        <td>Price</td>
+                    </thead>
+                    <tbody id="table-body">
+                       <tr>
+                        <td>Item</td>
+                        <td>Name</td>
+                        <td>Quantity</td>
+                        <td>Price</td>
+                       </tr>
+                    </tbody>
+                    
+                </table>
+            </div>
+        </div>
+
+
+        <div id="cart">
+            <div class="taste-header">
+                <div class="user">
+                    <i class="fa fa-user-circle">
+                        Account
+                    </i>
+                </div>
+            </div>
+
+            <div id="category-list">
+                <p class="item-menu">Go For Hunt</p>
+                <div class="border"></div>
+                
+                <div class="list-card">
+                    <img src="./shoppingsite-main/images/biryani/hyd-Mutton-Biryani.jpg" alt="">
+                    <a href="#biriyani" class="list-name">Biriyani</a>
+                </div>
+
+                <div class="list-card">
+                    <img src="./shoppingsite-main/images/chicken/Chicken-Masala.jpeg" alt="">
+                    <a href="#chicken" class="list-name">Chicken</a>
+                </div>
+
+                <div class="list-card">
+                    <img src="./shoppingsite-main/images/paneer/palak-paneer.jpg" alt="">
+                    <a href="#paneer" class="list-name">Paneer</a>
+                </div>
+
+                <div class="list-card">
+                    <img src="./shoppingsite-main/images/vegetable/vegetable-masala.jpg" alt="">
+                    <a href="#vegetable" class="list-name">Veg</a>
+                </div>
+
+                
+                <div class="list-card">
+                    <img src="./shoppingsite-main/images/chinese/szechuan-chicken.jpg" alt="">
+                    <a href="#chinese" class="list-name">Chinese</a>
+                </div>
+
+                <div class="list-card">
+                    <img src="./shoppingsite-main/images/south indian/masala-dosa.jpg" alt="">
+                    <a href="#south-indian" class="list-name">South Indian</a>
+                </div>
+               
+            </div>   
+            <div id="checkout" class="cart-toggle">
+                <p id="total-item"> Total Item : 5</p><br>
+                <p id="total-price">Total Price : $50</p>
+                <p id="delivery">Free Delivery Above 149</p>
+                <button class="cart-btn">Checkout</button>
+            </div>       
+        </div>    
+    </div>
+    
+</body>
+</html>
