@@ -1,4 +1,4 @@
-const foodItem= [
+/* const foodItem= [
     {
     id: 1,
     name: 'Ambur Biryani',
@@ -398,11 +398,11 @@ const foodItem= [
     price: 34,
     img: 'images/south indian/sambhar-vada.jpg',
     quantity: 1
-}
-]
+*/
 
 
 
+import {foodItem} from "./fooditem.jd"
  
 function displayItem(){
     const biriyani=document.querySelector("#biriyani")
