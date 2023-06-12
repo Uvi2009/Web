@@ -402,7 +402,7 @@
 
 
 
-import {foodItem} from "./fooditem.jd"
+import {foodItem} from "./fooditem.js"
  
 function displayItem(){
     const biriyani=document.querySelector("#biriyani")
