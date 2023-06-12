@@ -1,4 +1,4 @@
-import { foodItem } from './fooditem.js'
+import { foodItem } from './fooditem.js';
  
  
 function displayItem(){
